@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" [(ngModel)]="num1"><br><br>
+    {{num1}}
+    <button class="btn btn-primary" (click)="check()">Check</button>
+    <h1>{{output}}</h1><br>
+    <button class="btn btn-primary" (click)="factorial()">Factorial</button>
+    <h1 [style.color]="ans>1000 ?'red':'green'">factorial of {{num1}} is {{ans}}</h1>
+<div class="box">
+    <input type="number" [(ngModel)]="operand1" ><input type="number" [(ngModel)]="operand2"><br>
+    <button class="operations btn btn-primary" (click)="add()">Addition</button>
+    <button class="operations btn btn-info" (click)="sub()">Substraction</button>
+    <button class="operations btn btn-warning" (click)="mul()">Multiplication</button>
+    <button class="operations btn btn-success" (click)="div()">Division</button>
+    <button class="btn btn-secondary" (click)="res()">Reset</button><br>
+    <label [style.color]="val_sty">{{value}}</label>
+</div>
+</body>
+</html>

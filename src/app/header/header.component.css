@@ -1,0 +1,27 @@
+.nav{
+    height: 60px;
+    display: flex;
+    background-color:gold;
+    color:black;
+    align-items:center;
+
+}
+.heading{
+width: 400px;
+text-align: center;
+margin-left: 30%;
+}
+.links{
+    display: flex;
+    gap: 40px; 
+    margin-left: 140px;
+}
+.nav a{
+    text-decoration:none;
+
+}
+.nav a:hover{
+text-decoration: underline;
+text-decoration-color: rgb(19, 18, 18);
+text-decoration-thickness: 3``````wpx;
+}

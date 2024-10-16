@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #960b0bdd;
+text-shadow: 2px 2px 1px #960b0bdd ;
+font-size: xxx-large;
+}
+.btns{
+margin-left: 40%;
+margin-top: 90px;;
+}
+.buttons:hover{
+    transform: scale(1.1);
+    transition: all linear 0.3s;
+    box-shadow: 1px 1px 5px rgb(4, 69, 126);
+}
+.label{
+    font-size: x-large;
+    text-shadow: 1px 2px 1px;
+}
+.oddeven{
+    margin-left: 40%;
+    
+}

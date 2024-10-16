@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Effects</h1>
+    <div class="btns">
+        <input type="button" class="buttons btn btn-success"  value="Count Up" (click)="counter()">:
+        <input type="button" class="buttons btn btn-danger"  value="Count Down" (click)="counter_down()">:
+        <input type="button" class="buttons btn btn-warning"  value="Reset" (click)="reset()">
+    </div>
+                
+                <div>
+
+                <label [style]="sty" [style.opacity]="opa" class="label">{{value}}</label>
+            </div>
+            <div>
+                <label class="oddeven bg-primary rounded-circle text-white">{{oddeven}}</label>
+            </div>
+
+
+</body>
+</html>

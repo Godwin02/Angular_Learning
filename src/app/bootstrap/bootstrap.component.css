@@ -1,0 +1,24 @@
+.sub_div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+.img{
+    height: 130px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow:1px 1px whitesmoke;
+}
+.heading{
+    font-weight: bolder;
+    text-align: center;
+    color:#ddd8ce;
+    text-shadow: 0.5px 0.8px #dd8ced;
+}
+.body{
+    height: 100vh;
+    background-color: #02182e;
+}

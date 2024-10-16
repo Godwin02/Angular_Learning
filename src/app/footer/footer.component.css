@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px; /* Fixed height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center text horizontally */
+    position: relative; /* Stay below content */
+    z-index: 2; /* Above the background */
+}

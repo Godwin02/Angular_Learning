@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="student">
+        <h1>Budhan</h1>
+        <img src="../../assets/budha.jpg" alt="">
+        <label for="">{{mark1}}{{ mar1}}</label>
+        <label for="">{{mark2}}{{mar2}}</label>
+        <label for="">{{mark3}}{{mar3}}</label>
+        <label for="">{{total}}{{ (mar1 + mar2 +mar3)}}</label>
+        <label>Status:<span [style.color]="(mar1 + mar2 +mar3)>290?'green':'red'"> {{(mar1 + mar2 +mar3)>290?"Pass":"Fail" }}</span></label>
+    </div>
+    <div class="styles" [style.color]="colorValue" [style.background-color]="'green'" >
+<p>Hello Godwin</p>
+    </div>
+    <div [style]="styles">
+        <p>Hai Godwin</p>
+        <p [style.color]="name =='Godwin'?'green':'' ">Name:{{name}}</p>
+    </div>
+    <p [ngStyle]="set()">Welcome Godwin</p>
+</body>
+</html>
